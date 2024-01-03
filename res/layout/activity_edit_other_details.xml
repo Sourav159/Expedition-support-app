@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditOtherDetails"
+    android:background="@drawable/gradient_colour">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="165dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_logo" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="410dp"
+        android:layout_height="703dp"
+
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="480dp"
+            android:background="@drawable/rounded_corner_normal"
+            android:text="SAVE"
+            app:backgroundTint="#1E539C"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/constraintLayout3"
+            app:layout_constraintVertical_bias="0.976" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Option"
+            android:textColor="#1E539C"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="85dp"
+            android:text="Notification"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imageView8"-->
+        <!--            android:layout_width="22dp"-->
+        <!--            android:layout_height="22dp"-->
+        <!--            android:layout_marginLeft="40dp"-->
+        <!--            android:layout_marginTop="53dp"-->
+        <!--            app:srcCompat="@drawable/notification_icon" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imageView9"-->
+        <!--            android:layout_width="22dp"-->
+        <!--            android:layout_height="22dp"-->
+        <!--            android:layout_marginLeft="40dp"-->
+        <!--            android:layout_marginTop="90dp"-->
+        <!--            app:srcCompat="@drawable/country" />-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imageView10"-->
+        <!--            android:layout_width="22dp"-->
+        <!--            android:layout_height="22dp"-->
+        <!--            android:layout_marginLeft="40dp"-->
+        <!--            android:layout_marginTop="125dp"-->
+        <!--            app:srcCompat="@drawable/language" />-->
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="160dp"
+            android:text="Security"
+            android:textColor="#1E539C"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@drawable/paswword" />
+
+        <EditText
+            android:id="@+id/editTextOldPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="185dp"
+            android:ems="10"
+            android:hint="Old Password"
+            android:inputType="textPassword"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="240dp"
+            app:srcCompat="@drawable/paswword" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="85dp"
+            app:srcCompat="@drawable/notification" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="370dp"
+            app:srcCompat="@drawable/notification" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="405dp"
+            app:srcCompat="@drawable/notification" />
+
+        <EditText
+            android:id="@+id/editTextNewPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="225dp"
+            android:ems="10"
+            android:hint="New Password"
+            android:inputType="textPassword"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="40dp"
+
+            android:layout_marginTop="280dp"
+            app:srcCompat="@drawable/paswword" />
+
+        <EditText
+            android:id="@+id/editTextConfirmNewPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="265dp"
+            android:ems="10"
+            android:hint="Confirm New Password"
+            android:inputType="textPassword"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="320dp"
+            android:text="Email Settings"
+            android:textColor="#1E539C"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="30dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="85dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="370dp"
+            android:text="Receive Newsletter"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="30dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="370dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="405dp"
+            android:text="Email me about new expeditions"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="30dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="405dp" />
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

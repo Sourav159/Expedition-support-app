@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="false"
+        android:isScrollContainer="true"
+        android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+
+        <EditText
+            android:id="@+id/startLocation"
+            android:layout_width="283dp"
+            android:layout_height="38dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableLeft="@drawable/start_location"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="Start Location"
+            android:inputType="textPostalAddress"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.043" />
+
+        <Button
+            android:id="@+id/mapsButton"
+            android:layout_width="188dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="31dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Open in Maps"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#3080BF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/uploadButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.462"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/endLocation"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintWidth_percent=".8" />
+
+        <EditText
+            android:id="@+id/endLocation"
+            android:layout_width="282dp"
+            android:layout_height="38dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableLeft="@drawable/end_location"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="End Location"
+            android:inputType="textPostalAddress"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/startLocation"
+            app:layout_constraintVertical_bias="0.068" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="155dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#3080BF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/uploadButton"
+            android:layout_width="191dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_corners"
+            android:drawableLeft="@drawable/ic_upload"
+            android:text="Upload Images"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="#3080BF"
+            app:layout_constraintBottom_toTopOf="@+id/imagesView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mapsButton"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/imagesView"
+            android:layout_width="415dp"
+            android:layout_height="228dp"
+            android:layout_marginBottom="9258400dp"
+            app:layout_constraintBottom_toTopOf="@+id/saveButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

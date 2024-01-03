@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homepageNav"
+        android:icon="@drawable/home_icon"
+        android:title="Home" />
+    <item
+        android:id="@+id/sponsorsNav"
+        android:icon="@drawable/sponsors"
+        android:title="Sponsors" />
+    <item
+        android:id="@+id/supportmenuItem"
+        android:icon="@drawable/handshake"
+        android:title="Support" />
+    <item
+        android:id="@+id/aboutUsActivity"
+        android:icon="@drawable/aboutus"
+        android:title="About Us" />
+    <item
+        android:id="@+id/profileNav"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/signOutNav"
+        android:icon="@drawable/logout"
+        android:title="Sign Out" />
+</menu>

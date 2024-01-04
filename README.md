@@ -17,6 +17,8 @@ Explore options like homepage, sponsors, donations, about us, profile, and sign 
 Securely manage user authentication with Firebase.
 Sign in and out with ease to personalize your experience.
 
+### Watch a screencast of the app demonstration [here](https://www.youtube.com/watch?v=TODRaGr7ieQ).
+
 ## Usage:
 
 ### Requirements:
